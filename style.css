@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    text-transform: uppercase;
+    font-size: 34px;
+
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.8rem;
+}
+
+button{
+    padding: 15px 35px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 60px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 940px;
+}
+
+.card{
+    padding: 40px;
+}
+.sedans-card{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs-card{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-card{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.sedans-card button{
+    color: hsl(31, 77%, 52%);
+}
+.suvs-card button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury-card button{
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover{
+    background-color: hsl(0, 100%, 1%);
+    color: hsl(0, 0%, 100%);
+    transition: 0.7s;
+}
+
+.footer{grid-column: span 3;margin-top: 50px;}
+.attribution {font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px){
+    .container{
+        grid-template-columns: 1fr;
+        margin: auto;;
+    }
+    body{
+        margin: 20px;   
+    }
+    button{
+        margin-top: 20px;
+    }
+    .footer{
+        grid-column: 1;
+    }
+}
