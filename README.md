@@ -21,13 +21,13 @@ Users should be able to:
 ![](./desktopSS.png)
 
 ![](mobileSS1.png) 
+
 ![](mobileSS2.png) 
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: https://uygardeniz.github.io/Product-preview-card-component-FrontendMentor/
-
+- Solution URL: https://github.com/UygarDeniz/3-column-preview-card-component-main-FrontendMentor
+- Live Site URL: https://uygardeniz.github.io/3-column-preview-card-component-main-FrontendMentor/
 
 ### Built with
 
